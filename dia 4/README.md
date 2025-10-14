@@ -27,3 +27,24 @@ Las tuplas son inmutables y usan paréntesis ().
 Proyecto del día: “Gestor simple de frutas”
 Aprendí a crear una lista vacía (inventario = []) y a usar un ciclo while con condicionales.
 El programa pide al usuario que ingrese frutas, permite ver el inventario o salir del programa.
+
+
+PROGRAMA: DIA4_CONTRA.PY .
+Detector de Contraseñas Débiles
+
+#¿Qué hace?
+- Agrega contraseñas débiles a lista negra
+- Verifica si una contraseña está comprometida
+- Muestra todas las contraseñas peligrosas conocidas
+
+#Comandos
+- `agregar` o cualquier texto: Añade a lista negra
+- `ver`: Muestra la lista
+- `verificar`: Chequea una contraseña específica
+- `salir`: Termina programa
+
+Ciberseguridad
+Simula sistemas reales que rechazan contraseñas filtradas
+en breaches como HaveIBeenPwned.
+
+
