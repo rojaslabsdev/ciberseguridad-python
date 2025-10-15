@@ -4,12 +4,12 @@ usuario = {
 "edad" : "24"
 }
 
-while True:
+while True: ##Se inicia bucle
     accion = input("Desea agregar usuario , ver , buscar o salir: ")
-    if accion == "salir":
+    if accion == "salir": ##si usuaruo dice salir cierra programa
         print("Hasta luego.")
         break
-    elif accion == "ver": 
+    elif accion == "ver":    ##VER muestra todos los usuarios.
         print(f"Estos son los usuarios: {usuario['nombre']}. Edad: {usuario['edad']}")
     elif accion == "buscar":
         nombre_buscar = input("Ingrese el nombre a buscar : ")
@@ -31,6 +31,7 @@ while True:
 
 
    
+
 
 
 
